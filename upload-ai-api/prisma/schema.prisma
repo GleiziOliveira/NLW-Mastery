@@ -1,0 +1,27 @@
+// This is your Prisma schema file,
+// O prisma cria automaticamente as tabelas 
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// o uuid é para criar um id unido para cada video e o @id para identificar que é uma cyhave primaria no banco de dados 
+   // o path é o caminho para onde o video será salvo
+model Video{
+  id String @id @default(uuid())
+  name String
+  path String 
+  transcription String?
+  createdAt DateTime @default(now())
+}
+
+model Prompt{
+  id String @id @default(uuid())
+  title String
+  template String
+}
