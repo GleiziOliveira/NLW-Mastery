@@ -1,0 +1,19 @@
+import { Button } from "./components/ui/button";
+
+
+export function App() {
+  
+
+  return (
+    <div>
+      <div className="px-6 py-3 flex items-center justify-between border-b"> {/*px p= padding e x = eixo horizontal e o número vale lembrar que sempre é x4 ou seja o 6 é = a 24px py = padding vertical sendo 12px  */}
+        <h1 className="text-xl font-bold">upload.ia</h1>
+        <div className="" >
+          <span>Desenvolvido com ❤ na NLW da Rocketseat</span>
+          <Button>Github</Button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
