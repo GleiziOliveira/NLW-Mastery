@@ -22,7 +22,7 @@ export function PromptSelect(props: PromptSelectProps) {
   const [prompts, setPrompts] = useState<Prompt[] | null>(null)
 
   useEffect(() => {
-    api.get("/prompts").then((response) => {
+    api.get("http://localhost:3333/prompt").then((response) => {
       setPrompts(response.data)
     })
   }, [])
