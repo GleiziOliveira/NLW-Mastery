@@ -3,8 +3,8 @@
 <p align="center">
 Programa NLW é exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
 
-<p align="upload-IA" src="https://i.ibb.co/JrCm1x8/upload-ia.png" width="100%">
-</p>
+<img align="upload-IA" src="https://i.ibb.co/JrCm1x8/upload-ia.png" width="100%"></img>
+
 <p align="center">"Aplicação que possibilita realizar upload de videos e por meio de IA, criar automaticamente títulos chamativos e descrições com um boa indexação."</p>
 
 ## 🚀 Tecnologias
